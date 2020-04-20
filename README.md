@@ -2,7 +2,7 @@
 
 ## Lista dos desafios
 
-- [Javascript)(#javascript)
+- [Javascript](#javascript)
 
 ### Javascript
 
