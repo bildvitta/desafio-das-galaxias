@@ -7,6 +7,7 @@
 ### Javascript
 
 - Binário para decimal - [desafio-01](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-01)
+- Multiplicar números pares da matriz pelo primeiro ímpar encontrado. - [desafio-02](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-02)
 
 ### Como enviar os desafios?
   - Crie um `fork` do repositório;
