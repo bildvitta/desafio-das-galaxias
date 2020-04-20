@@ -11,7 +11,7 @@
 ### Como enviar os desafios?
   - Crie um `fork` do repositório;
   - Após forkar o repositório, baixe em seu pc, `git clone nome-do-repositório-forkado`;
-  - Na branch master, vá até a pasta do desafio, crie um arquivo `.js` na raiz da pasta com seu nome, exemplo: `meu-nome.js`;
+  - Na branch master, vá até a pasta do desafio, crie um arquivo `com a extensão do desafio` na raiz da pasta com seu nome de usuario no git seguido pelo seu nome, exemplo: Desafio de javascript: `@UsuarioGithub_meu-nome.js`;
   - Salve as alterações, commit, e dê um `git push origin master`;
   - Após enviar as alterações para o `github`, entre no repositório `forkado` e crie um `pull request` com seu desafio.
 
