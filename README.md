@@ -6,7 +6,7 @@
 
 ### Javascript
 
-- Decimal para Binario - [desafio-01](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-01)
+- Binário para decimal - [desafio-01](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-01)
 
 ### Como enviar os desafios?
   - Crie um `fork` do repositório;
