@@ -10,7 +10,7 @@ Ah, e lembre-se de desconsiderar e remover os elementos que não forem matrizes.
 
 O retorno sempre será uma matriz, ainda que vazia.
 
-## Exemplo:
+## Exemplos
 
 ``` js
 console.log(multiply([1, 3, 4], [5, 6], [0, 1]))
