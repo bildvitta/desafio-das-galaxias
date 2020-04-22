@@ -6,7 +6,7 @@ O objetivo deste desafio é implementar a função que gera os números para a _
 
 ## Premissas
 
-1. O usuário poderá escolher a quantidade de números jogados, desde que respeitando o intervalo de possibilidades válidas, ou seja, de 6 até 15 números. Caso o parâmetro fique em branco, deve-se assumir o valor 6 como padrão.
+1. O usuário poderá escolher a quantidade de números jogados, desde que respeitando o intervalo de possibilidades válidas, ou seja, de 6 até 15 números. Caso o parâmetro fique em branco, deve-se assumir o valor 6 como padrão. O tipo do parâmetro poderá ser `Number` ou `String`.
 2. Lembre-se que as possibilidades de números para jogar começam em 1 e vão até 60 e que um número nunca aparece duas vezes.
 3. O resultado deverá ser uma matriz de inteiros em ordem crescente.
 
@@ -18,7 +18,7 @@ _Lembrando que, como os números são aleatórios, o retorno sempre será difere
 console.log(surpresinha())
 // retorna [10, 20, 30, 40, 50, 60]
 
-console.log(surpresinha(10))
+console.log(surpresinha('10'))
 // retorno: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 console.log(surpresinha(5))
