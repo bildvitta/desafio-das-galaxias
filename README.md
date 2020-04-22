@@ -1,27 +1,33 @@
-# Desafio das Galáxias
+# Desafio Das Galáxias
+
+Pronto para ir ao infinito e além? Pegue sua toalha e parta conosco desvendar os desafios de programação!
 
 ## Lista dos desafios
 
-- [Javascript](#javascript)
+- [JavaScript](#javascript)
 
-### Javascript
+### JavaScript
 
-- Binário para decimal - [desafio-01](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-01)
-- Multiplicar números pares da matriz pelo primeiro ímpar encontrado. - [desafio-02](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-02)
+1. [Converter binário para decimal.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-1)
+2. [Multiplicar os números pares da matriz pelo primeiro ímpar encontrado.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-2)
 
-### Como enviar os desafios?
-  - Crie um `fork` do repositório;
-  - Após forkar o repositório, baixe em seu pc, `git clone nome-do-repositório-forkado`;
-  - Na branch master, vá até a pasta do desafio, crie um arquivo `com a extensão do desafio` na raiz da pasta com seu nome de usuario no git seguido pelo seu nome, exemplo: Desafio de javascript: `@UsuarioGithub_meu-nome.js`;
-  - Salve as alterações, commit, e dê um `git push origin master`;
-  - Após enviar as alterações para o `github`, entre no repositório `forkado` e crie um `pull request` com seu desafio.
+## Como contribuir?
 
-### Como criar os desafios?
-  - Crie um `fork` do repositório (caso não tenha forkado ainda);
-  - Após forkar o repositório, baixe em seu pc, `git clone nome-do-repositório-forkado`;
-  - Na branch master, vá até o diretorio que queira criar o desafio, crie uma pasta com o nome `dasafio-{numero-do-desafio}`, ex: desafio-02;
-  - Dentro da pasta criada, crie o arquivo markdown com o nome `README.md`
-  - Dentro do arquivo `README.md` descreva seu desafio seguindo a estrutura dos demais desafios.
-  - Após criar o desafio, entre no arquivo `README.md` na raiz do projeto e adicione seu desafio linkando ele.
-  - Salve as alterações, commit, e dê um `git push origin master`;
-  - Após enviar as alterações para o `github`, entre no repositório `forkado` e crie um `pull request` com seu desafio.
+### Como submeter a sua resolução de desafios?
+
+- Crie um `fork` do repositório (caso ainda não tenha);
+- Após forkar o repositório, clone-o em seu computador: `git clone nome-do-repositório-forkado`;
+- Na branch `master`, vá até o diretório do desafio e crie um arquivo no padrão `@usuariodogithub_meu-nome.ext`, lembre-se de substituir pela extensão da linguagem do desafio e deixar todos os caracteres em minúsculo, além de remover possíveis acentos e caracteres especiais de seu nome;
+- Salve as alterações, __commit__ e envie para o seu repositório: `git push origin master`;
+- Entre no repositório pelo GitHub e crie um __pull request__ com seu desafio resolvido.
+
+### Como criar um desafio?
+
+- Crie um `fork` do repositório (caso ainda não tenha);
+- Após forkar o repositório, clone-o em seu computador: `git clone nome-do-repositório-forkado`;
+- Na branch `master`, vá até o diretorio da linguagem que deseja e crie uma pasta com o nome `desafio-{numero-sequencial}`;
+- Dentro da pasta criada, crie um arquivo com o nome `readme.md`
+- Dentro do arquivo `readme.md` descreva a documetação do desafio, na mesma estrutura dos anteriores;
+- Após criar o desafio, entre no arquivo `readme.md` da raiz do projeto e adicione seu desafio linkando ele;
+- Salve as alterações, __commit__ e envie para o seu repositório: `git push origin master`;
+- Entre no repositório pelo GitHub e crie um __pull request__ com sua proposta de desafio.
