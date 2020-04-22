@@ -1,4 +1,4 @@
-# Desafio 02: Multiplicar os números pares da matriz pelo primeiro ímpar encontrado.
+# Desafio 2: Multiplicar os números pares da matriz pelo primeiro ímpar encontrado.
 
 Dada uma matriz composta `[[1, 3, 4], [5, 6], [0, 2]]`, crie uma função que receba `n` matrizes, ou seja, quantos desejar via parâmetro. Percorra essas matrizes e:
 

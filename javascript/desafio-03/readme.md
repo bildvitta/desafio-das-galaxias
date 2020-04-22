@@ -7,7 +7,7 @@ O objetivo deste desafio é implementar a função que gera os números para a _
 ## Premissas
 
 1. O usuário poderá escolher a quantidade de números jogados, desde que respeitando o intervalo de possibilidades válidas, ou seja, de 6 até 15 números. Caso o parâmetro fique em branco, deve-se assumir o valor 6 como padrão.
-2. Lembre-se que as possibilidades de números para jogar começam em 1 e vão até 60 e um número nunca aparece duas vezes.
+2. Lembre-se que as possibilidades de números para jogar começam em 1 e vão até 60 e que um número nunca aparece duas vezes.
 3. O resultado deverá ser uma matriz de inteiros em ordem crescente.
 
 ## Exemplos
