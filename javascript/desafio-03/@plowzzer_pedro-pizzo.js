@@ -1,15 +1,14 @@
 // Desafio 3: Gerando surpresinha da Mega-Sena
 // On Codepen: https://codepen.io/plowzzer/pen/rNOjMwG
+// 14,031
 
-function surpresinha(qnt) {
+function surpresinha(qnt = 6) {
   if (qnt < 6 || qnt > 15) {
     return "Error [Informe um valor entre 6 e 15.]";
   }
-
-  var i = 0;
+  let i = 0;
   const array = [];
-
-  while (i < (qnt === undefined ? 6 : qnt)) {
+  while (i < qnt) {
     const num = Math.floor(Math.random() * 60) + 1;
     if (!array.find((e) => e === num)) {
       array.push(num);
