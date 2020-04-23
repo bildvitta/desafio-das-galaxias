@@ -1,8 +1,6 @@
 function converter(binario){
   binario = binario.toString().split('')
-  //console.log(binario)
   let expoente = binario.length - 1 
-  //console.log(expoente)
   let resultado = 0
   
  for(let i = 0; i < binario.length; i++){
