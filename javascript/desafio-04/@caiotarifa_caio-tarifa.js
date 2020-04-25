@@ -1,6 +1,6 @@
 // https://jsbin.com/fazoxiyage/edit?js,console
 
-function maioriaDosVotos(votes) {
+function maioriaDosVotos (votes) {
   if (Array.isArray(votes) && votes.length) {
     const ranking = {}
     const minimun = votes.length / 2
