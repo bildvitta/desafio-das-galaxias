@@ -1,3 +1,5 @@
+// https://jsbin.com/fazoxiyage/1/edit?js,console
+
 function maioriaDosVotos(votes) {
   if (Array.isArray(votes) && votes.length) {
     const ranking = {}
