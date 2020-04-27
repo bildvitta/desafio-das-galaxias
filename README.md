@@ -12,6 +12,7 @@ Pronto para ir ao infinito e além? Pegue sua toalha e parta conosco desvendar o
 2. [Multiplicar os números pares da matriz pelo primeiro ímpar encontrado.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-02)
 3. [Gerando surpresinha da Mega-Sena.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-03)
 4. [Maioria dos votos](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-04)
+4. [Multiplicar pelo index e somar números do array](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-05)
 
 ## Como contribuir?
 
