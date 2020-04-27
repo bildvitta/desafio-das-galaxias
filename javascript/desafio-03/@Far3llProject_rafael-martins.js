@@ -1,4 +1,4 @@
-function surpersinha(aposta){
+function surpersinha(aposta = 6){
   
   if(aposta < 6 || aposta > 15){
     let alerta = "escolha entre 6 e 15"
