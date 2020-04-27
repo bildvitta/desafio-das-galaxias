@@ -1,32 +1,23 @@
 function surpersinha(aposta){
-
+  
   if(aposta < 6 || aposta > 15){
-    let alert = "escolha entre 6 e 15"
-    return alert
+    let alerta = "escolha entre 6 e 15"
+    return alerta
   }
-
-  let qtdaposta = new Array(Number(aposta));
-
-  //console.log(qtdaposta.length)
-
-  let j = 0
-  for(let i = 0; i < qtdaposta.length; i++){
-    let numerosorteio = Math.floor(Math.random() * 59 + 1)
-     while(j < i)
-      {
-        if (numerosorteio == qtdaposta[j]) 
-        { 
-         qtdaposta[j] = Math.floor(Math.random() * 59 + 1)
-          j = 0 
-        }else{
-          j++
-        }
-      }
-    qtdaposta[j] = numerosorteio
+ 
+  const qtdAposta = new Array()
+  
+  for(let i = 1; i <= aposta; i++){
+    const numeroSorteio = Math.floor(Math.random() * 59 + 1)
+    let repetido = qtdAposta.includes(numeroSorteio)
+    
+  if(repetido == false){
+      qtdAposta.push(numeroSorteio)
+    }else{
+      i--
+     }
   }
-  return qtdaposta.sort( (a,b) => a-b)
+  return qtdAposta.sort( (a,b) => a-b)
 }
-​
-console.log(surpersinha("6"))
 
-​
+console.log(surpersinha("6"))
