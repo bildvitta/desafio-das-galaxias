@@ -19,6 +19,7 @@ Pronto para ir ao infinito e além? Pegue sua toalha e parta conosco desvendar o
 
 - Crie um `fork` do repositório (caso ainda não tenha);
 - Após forkar o repositório, clone-o em seu computador: `git clone nome-do-repositório-forkado`;
+- Para sincronizar seu repositório forkado com o repositório original clique [aqui](https://medium.com/@topspinj/how-to-git-rebase-into-a-forked-repo-c9f05e821c8a) e siga as instruções.
 - Na branch `master`, vá até o diretório do desafio e crie um arquivo no padrão `@usuariodogithub_meu-nome.ext`, lembre-se de substituir pela extensão da linguagem do desafio e deixar todos os caracteres em minúsculo, além de remover possíveis acentos e caracteres especiais de seu nome;
 - Salve as alterações, **commit** e envie para o seu repositório: `git push origin master`;
 - Entre no repositório pelo GitHub e crie um **pull request** com seu desafio resolvido.
