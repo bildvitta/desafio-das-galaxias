@@ -3,7 +3,7 @@ function matchHouses (house) {
     return 'Insira um numero positivo'
   }
 
-  return house > 1 ? (house * 6) - (house - 1) : house <= 0 ? 0 : 6
+  return house > 1 ? (house * 6) - (house - 1) : !house ? house : 6
 }
 
 matchHouses(1)
