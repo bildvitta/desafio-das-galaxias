@@ -15,16 +15,16 @@ O retorno sempre será uma matriz, ainda que vazia.
 ``` js
 console.log(multiply([1, 3, 4], [5, 6], [0, 1]))
 // [[1, 3, 4], [5, 6], [0, 1]] => [[1, 3, 1 * 4], [5, 6*5], [0 * 1, 1]] no final vira =>
-// retorno: [[1, 3, 4], [5, 30], [0, 1]]
+// retorna [[1, 3, 4], [5, 30], [0, 1]]
 
 console.log(multiply([0, 2, 7], [5, 1], [2, 0]))
 // [[0, 2, 7], [5, 1], [2, 0]] => [[0 * 7, 2 * 7, 7], [5, 1], [2, 0]]
-// retorno: [[0, 14, 7], [5, 1], [2, 0]]
+// retorna [[0, 14, 7], [5, 1], [2, 0]]
 
 console.log(multiply([0, 1], 5, [2, 0]))
 // [[0, 1], 5, [2, 0]] => [[0 * 1], [2, 0]]
-// retorno: [[0, 1], [2, 0]]
+// retorna [[0, 1], [2, 0]]
 
 console.log(multiply(5))
-// retorno: []
+// retorna []
 ```

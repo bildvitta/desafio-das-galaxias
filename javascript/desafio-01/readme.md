@@ -6,8 +6,8 @@ Crie uma função que receba uma `String` ou número (em binário) e transforme-
 
 ``` js
 console.log(binaryToDecimal(1110))
-// retorno: 14
+// retorna 14
 
 console.log(binaryToDecimal('101101010101'))
-// retorno: 2901
+// retorna 2901
 ```
