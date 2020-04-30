@@ -11,9 +11,10 @@ Pronto para ir ao infinito e além? Pegue sua toalha e parta conosco desvendar o
 1. [Converter binário para decimal.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-01)
 2. [Multiplicar os números pares da matriz pelo primeiro ímpar encontrado.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-02)
 3. [Gerando surpresinha da Mega-Sena.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-03)
-4. [Maioria dos votos](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-04)
-5. [Multiplicar pelo index e somar números do array](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-05)
-6. [Casas de palito](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-06)
+4. [Maioria dos votos.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-04)
+5. [Multiplicar pelo index e somar números da matriz.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-05)
+6. [Casas de palito.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-06)
+7. [Números primos.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-07)
 
 ## Como contribuir?
 
