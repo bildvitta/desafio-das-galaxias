@@ -17,5 +17,5 @@ matchHouses(87)
 
 ## Premissas
 
-11 Se a função receber 0, retorne 0 palitos.
+1. Se a função receber 0, retorne 0 palitos.
 2. Você não pode enviar um número negativo na função.
