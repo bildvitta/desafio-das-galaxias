@@ -28,11 +28,14 @@ Essas mensagens após serem codificadas, podiam ser transmitidas de várias mane
 ## Premissas:
 
 1. Você deve escrever uma função para codificar uma frase em código morse.
-2. Você deve representar os espaços com **linha baixa (\_) = ..--.-**
-3. Não precisa considerar acentuação
+2. Você deve representar os espaços com **linha baixa (\_) = ..--.-**.
+3. Você não deve considerar acentuação.
 4. O retorno deve ser expresso como uma string.
 
 ```js
-console.log(morseEncode("CODIGO MORSE"));
+console.log(morseEncode("Código Morse"));
 // retorna -.-. --- -.. .. --. --- ..--.- -- --- .-. ... .
+
+console.log(morseEncode("The quick brown fox jumps over the lazy dog"));
+// retorna - .... . ..--.- --.- ..- .. -.-. -.- ..--.- -... .-. --- .-- -. ..--.- ..-. --- -..- ..--.- .--- ..- -- .--. ... ..--.- --- ...- . .-. ..--.- - .... . ..--.- .-.. .- --. -.-- ..--.- -.. --- --.
 ```
