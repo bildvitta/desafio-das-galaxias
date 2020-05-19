@@ -18,6 +18,7 @@ Pronto para ir ao infinito e além? Pegue sua toalha e parta conosco desvendar o
 8. [A Bola mágica 8.](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-08)
 9. [Verificar se uma frase ou palavra é um Palíndromo](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-09)
 10. [Codificador de Código Morse](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-10)
+11. [Decodificador de Código Morse](https://github.com/bildvitta/desafio-das-galaxias/tree/master/javascript/desafio-11)
 
 ## Como contribuir?
 
