@@ -6,7 +6,7 @@ function morseEncode(string) {
     .normalize("NFD") // normalizing the code
     .replace(/[\u0300-\u036f]/g, "")
     .split(" ")
-    .join("-")
+    .join("_")
     .toUpperCase()
     .split("");
 
@@ -93,8 +93,85 @@ function morseEncode(string) {
       case "Z":
         returnCode.push("--.");
         break;
+      case "0":
+        returnCode.push("-----");
+        break;
+      case "1":
+        returnCode.push("·----");
+        break;
+      case "2":
+        returnCode.push("·.---");
+        break;
+      case "3":
+        returnCode.push("·..--");
+        break;
+      case "3":
+        returnCode.push("·...-");
+        break;
+      case "4":
+        returnCode.push("·...-");
+        break;
+      case "5":
+        returnCode.push("·....");
+        break;
+      case "6":
+        returnCode.push("-....");
+      case "7":
+        returnCode.push("--...");
+        break;
+      case "8":
+        returnCode.push("---..");
+        break;
+      case "9":
+        returnCode.push("----.");
+        break;
+      case ".":
+        returnCode.push("·-·-·-");
+        break;
+      case ",":
+        returnCode.push("--..--");
+        break;
+      case "?":
+        returnCode.push("..--..");
+        break;
+      case "'":
+        returnCode.push(".----.");
+        break;
+      case "!":
+        returnCode.push("-.-.--");
+        break;
+      case "/":
+        returnCode.push("-··-·");
+        break;
+      case "(":
+        returnCode.push("-·--·");
+        break;
+      case ")":
+        returnCode.push("-·--·-");
+        break;
+      case "&":
+        returnCode.push("·-···");
+        break;
+      case ":":
+        returnCode.push("---···");
+        break;
+      case ";":
+        returnCode.push("-·-·-·");
+        break;
+      case "=":
+        returnCode.push("-···-");
+        break;
       case "-":
         returnCode.push("..--.-");
+        break;
+      case "_":
+        returnCode.push("··--·-");
+        break;
+      case "$":
+        returnCode.push("···-··-");
+        break;
+      case "@":
+        returnCode.push("·--·-·");
         break;
       default:
         returnCode.push("?");
