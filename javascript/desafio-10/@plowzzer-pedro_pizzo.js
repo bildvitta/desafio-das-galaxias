@@ -91,7 +91,7 @@ function morseEncode(string) {
         returnCode.push("-.--");
         break;
       case "Z":
-        returnCode.push("--.");
+        returnCode.push("--..");
         break;
       case "0":
         returnCode.push("-----");
@@ -191,4 +191,4 @@ console.log(morseEncode("Código Morse"));
 // retorna -.-. --- -.. .. --. --- ..--.- -- --- .-. ... .
 
 console.log(morseEncode("The quick brown fox jumps over the lazy dog"));
-// retorna - .... . ..--.- --.- ..- .. -.-. -.- ..--.- -... .-. --- .-- -. ..--.- ..-. --- -..- ..--.- .--- ..- -- .--. ... ..--.- --- ...- . .-. ..--.- - .... . ..--.- .-.. .- --. -.-- ..--.- -.. --- --.
+// retorna - - .... . ..--.- --.- ..- .. -.-. -.- ..--.- -... .-. --- .-- -. ..--.- ..-. --- -..- ..--.- .--- ..- -- .--. ... ..--.- --- ...- . .-. ..--.- - .... . ..--.- .-.. .- --.. -.-- ..--.- -.. --- --.
