@@ -7,7 +7,7 @@ function surpresinha (userInput) {
   }
   else if (userInput == null) {
     for(i = 0; i < 6; i++){
-      numerosDaSorte.push(Math.floor(Math.random() * (60 - 1) + 1))
+      numerosDaSorte.push(Math.floor(Math.random() * ((60 - 1) + 1) ))
     }
   }else{
     return "Error [Informe um valor entre 6 e 15.]"
