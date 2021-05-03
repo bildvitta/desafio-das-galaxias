@@ -16,8 +16,8 @@ três viagens; sempre usando cada um dos três créditos no máximo uma vez.
 A entrada consiste de uma linha contendo os valores dos três créditos A,B,C ( 1 <= A,B,C <= 1000 ).
 
 ### Saida
-Seu programa deve imprimir uma linha contendo o caracter "S" se é possível viajaara e voltar para
-o presente, ou "N" caaso contrario
+Seu programa deve imprimir uma linha contendo o caracter "S" se é possível viajar e voltar para
+o presente, ou "N" caso contrario
 
 
 ## Exemplos
